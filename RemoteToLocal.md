@@ -2,7 +2,7 @@
 
 # Git Commands Explained:
 
-* 1. git config --global user.name '.......'*
+*1. git config --global user.name '.......'*
 
 Purpose: Sets the global username for Git.
 Use Case: Configure your identity for commits. Replace ....... with your desired name.
