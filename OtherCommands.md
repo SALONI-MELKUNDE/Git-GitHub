@@ -37,7 +37,7 @@ e. Submit the pull request for review.
 
 *7. Undoing Stages and Changes*
 
-a) Undo Staged Changes
+*a) Undo Staged Changes*
 
 Command:
 
@@ -53,7 +53,7 @@ Example:
 git restore --staged README.md
 ```
 
-b) Discard Changes in a File
+*b) Discard Changes in a File*
 
 Command:
 
@@ -69,49 +69,54 @@ Example:
 git restore README.md
 ```
 
-c) Undo the Last Commit (Keep Changes in Staging)
+*c) Undo the Last Commit (Keep Changes in Staging)*
+
 Command:
 
-bash
-Copy
-Edit
+```bash
 git reset --soft HEAD~1
+```
+
 Purpose: Moves the last commit back to the staging area, allowing you to re-commit with changes if needed.
+
 Example:
 
-bash
-Copy
-Edit
+```bash
 git reset --soft HEAD~1
-d) Undo the Last Commit (Discard Changes Permanently)
+```
+
+*d) Undo the Last Commit (Discard Changes Permanently)*
+
 Command:
 
-bash
-Copy
-Edit
+```bash
 git reset --hard HEAD~1
+```
+
 Purpose: Completely removes the last commit and all associated changes.
-Warning: Use with caution, as this action cannot be undone.
+
 Example:
 
-bash
-Copy
-Edit
+```bash
 git reset --hard HEAD~1
-e) Check Status Before Undoing Changes
+```
+
+*e) Check Status Before Undoing Changes*
+
 Command:
 
-bash
-Copy
-Edit
+```bash
 git status
+```
+
 Purpose: Always check the repository status before undoing actions to avoid unintentional data loss.
+
 Example:
 
-bash
-Copy
-Edit
+```bash
 git status
+```
+
 Happy Coding and Collaboration! 💻🚀
 
 
