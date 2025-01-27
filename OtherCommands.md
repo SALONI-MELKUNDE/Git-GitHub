@@ -46,26 +46,29 @@ git restore --staged <file>
 ```
 
 Purpose: Unstages a file but keeps the changes in the working directory.
+
 Example:
 
-bash
-Copy
-Edit
+```bash
 git restore --staged README.md
+```
+
 b) Discard Changes in a File
+
 Command:
 
-bash
-Copy
-Edit
+```bash
 git restore <file>
+```
+
 Purpose: Discards changes in the working directory and restores the file to its last committed state.
+
 Example:
 
-bash
-Copy
-Edit
+```bash
 git restore README.md
+```
+
 c) Undo the Last Commit (Keep Changes in Staging)
 Command:
 
